@@ -27,14 +27,12 @@ body {
   font-family: var(--font-cormorant), Georgia, serif;
 }
 
-/* Gold divider */
 .gold-line {
   width: 60px;
   height: 2px;
   background: var(--gold);
 }
 
-/* Scroll reveal animation */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -55,12 +53,10 @@ body {
 .fade-up-delay-3 { animation-delay: 0.3s; opacity: 0; }
 .fade-up-delay-4 { animation-delay: 0.4s; opacity: 0; }
 
-/* Section spacing */
 .section-pad {
   @apply py-20 md:py-28;
 }
 
-/* Gold button */
 .btn-gold {
   @apply inline-flex items-center gap-2 bg-[#D4AF37] text-white px-7 py-3.5 text-sm tracking-widest uppercase font-medium transition-all duration-300;
 }
@@ -78,7 +74,6 @@ body {
   @apply bg-[#D4AF37] text-white;
 }
 
-/* Card hover lift */
 .card-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -88,7 +83,6 @@ body {
   box-shadow: 0 20px 60px rgba(212, 175, 55, 0.12);
 }
 
-/* Grain overlay for hero */
 .hero-grain::after {
   content: '';
   position: absolute;
