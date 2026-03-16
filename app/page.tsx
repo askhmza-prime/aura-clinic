@@ -756,6 +756,7 @@ export default function Home() {
       <DoctorsSection />
       <BeforeAfterPreview />
       <ReviewsStrip />
+      <FAQSection />
       <AppointmentForm />
     </>
   );
